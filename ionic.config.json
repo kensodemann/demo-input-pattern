@@ -1,0 +1,7 @@
+{
+  "name": "demo-input-pattern",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
