@@ -24,8 +24,6 @@ export class NumbersOnlyDirective {
   }
 
   private allowNumbers(element: HTMLInputElement) {
-    // const element = event.target ;
-    // let text = element.value;
     const lastChar = element.value.substr(-1);
     const numbersList = '0123456789';
     element.value =
